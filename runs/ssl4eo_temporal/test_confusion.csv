@@ -1,0 +1,20 @@
+true / predicted,alder,birch,black pine,cherry,douglas fir,english oak,european ash,european beech,european larch,japanese larch,linden,norway spruce,poplar,red oak,scots pine,sessile oak,silver fir,sycamore maple,weymouth pine
+alder,102,0,3,2,0,11,17,29,7,3,4,69,0,6,0,9,0,11,0
+birch,0,179,0,0,7,0,0,0,0,0,0,0,24,0,14,0,2,0,1
+black pine,3,0,20,2,0,5,3,7,14,2,0,6,0,1,0,2,0,1,0
+cherry,0,0,0,6,0,0,1,2,0,0,2,0,0,1,0,4,0,3,0
+douglas fir,0,26,0,0,205,0,0,0,0,0,0,0,1,0,45,0,18,0,14
+english oak,8,0,0,0,0,112,4,9,2,4,2,1,0,15,0,63,0,4,0
+european ash,16,0,0,4,0,4,175,48,4,1,4,10,0,2,0,6,0,66,0
+european beech,2,0,4,3,0,11,37,397,5,4,0,30,0,5,0,12,0,20,0
+european larch,5,0,4,3,0,7,7,15,62,16,0,3,0,3,0,4,0,0,0
+japanese larch,2,0,6,0,0,8,2,8,36,142,0,8,0,5,0,2,0,4,0
+linden,0,0,0,1,0,0,3,0,0,0,1,0,0,0,0,0,0,4,0
+norway spruce,13,1,9,2,0,12,8,65,21,3,0,996,0,5,0,6,0,9,0
+poplar,0,10,0,0,1,0,0,0,0,0,0,0,23,0,1,0,0,0,1
+red oak,3,0,0,0,0,3,6,6,0,1,0,3,0,145,0,17,0,6,0
+scots pine,0,51,0,0,16,0,0,0,0,0,0,0,5,0,620,0,3,0,22
+sessile oak,6,0,0,1,0,55,6,9,1,1,0,9,0,56,0,143,0,13,0
+silver fir,0,16,0,0,10,0,0,0,0,0,0,0,0,0,5,0,67,0,1
+sycamore maple,11,0,2,8,0,11,50,44,3,1,5,24,0,16,0,21,0,116,0
+weymouth pine,0,9,0,0,11,0,0,0,0,0,0,0,0,0,21,0,0,0,41

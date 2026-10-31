@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+data/*
+!data/prepared/
+data/prepared/*
+!data/prepared/manifest.json
+!data/prepared/splits.npz
+!data/prepared/normalization.npz
+models/
+runs/*
+!runs/ssl4eo_temporal/
+*.zip
+TreeSatAI_Label_Data/
+Project Introduction.pdf
+

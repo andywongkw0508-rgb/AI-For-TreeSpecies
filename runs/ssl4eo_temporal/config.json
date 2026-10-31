@@ -1,0 +1,48 @@
+{
+  "data": "data\\prepared",
+  "output": "runs\\ssl4eo_temporal",
+  "epochs": 80,
+  "patience": 12,
+  "batch_size": 128,
+  "encode_batch_size": 64,
+  "image_size": 32,
+  "lr": 0.0003,
+  "seed": 42,
+  "device": "auto",
+  "device_used": "cuda",
+  "torch": "2.11.0+cu128",
+  "encoder_weights": "https://huggingface.co/torchgeo/resnet18_sentinel2_all_moco/resolve/5b8cddc9a14f3844350b7f40b85bcd32aed75918/resnet18_sentinel2_all_moco-59bfdff9.pth",
+  "encoder_frozen": true,
+  "dataset_fingerprint": "27b83c27006ccffc16d1a23457c710335912e8d8799d8e1eb8aa29da1c31e4e3",
+  "all_cloud_removed": {
+    "train": 0,
+    "val": 0,
+    "test": 0
+  },
+  "classes": [
+    "alder",
+    "birch",
+    "black pine",
+    "cherry",
+    "douglas fir",
+    "english oak",
+    "european ash",
+    "european beech",
+    "european larch",
+    "japanese larch",
+    "linden",
+    "norway spruce",
+    "poplar",
+    "red oak",
+    "scots pine",
+    "sessile oak",
+    "silver fir",
+    "sycamore maple",
+    "weymouth pine"
+  ],
+  "split_counts": {
+    "train": 26863,
+    "val": 5748,
+    "test": 5235
+  }
+}

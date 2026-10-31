@@ -1,0 +1,336 @@
+{
+  "classes": [
+    "alder",
+    "birch",
+    "black pine",
+    "cherry",
+    "douglas fir",
+    "english oak",
+    "european ash",
+    "european beech",
+    "european larch",
+    "japanese larch",
+    "linden",
+    "norway spruce",
+    "poplar",
+    "red oak",
+    "scots pine",
+    "sessile oak",
+    "silver fir",
+    "sycamore maple",
+    "weymouth pine"
+  ],
+  "hierarchy": {
+    "european beech": [
+      "broadleaf",
+      "beech"
+    ],
+    "sessile oak": [
+      "broadleaf",
+      "oak"
+    ],
+    "english oak": [
+      "broadleaf",
+      "oak"
+    ],
+    "red oak": [
+      "broadleaf",
+      "oak"
+    ],
+    "sycamore maple": [
+      "broadleaf",
+      "long-lived deciduous"
+    ],
+    "european ash": [
+      "broadleaf",
+      "long-lived deciduous"
+    ],
+    "linden": [
+      "broadleaf",
+      "long-lived deciduous"
+    ],
+    "cherry": [
+      "broadleaf",
+      "long-lived deciduous"
+    ],
+    "alder": [
+      "broadleaf",
+      "short-lived deciduous"
+    ],
+    "poplar": [
+      "broadleaf",
+      "short-lived deciduous"
+    ],
+    "birch": [
+      "broadleaf",
+      "short-lived deciduous"
+    ],
+    "silver fir": [
+      "needleleaf",
+      "fir"
+    ],
+    "european larch": [
+      "needleleaf",
+      "larch"
+    ],
+    "japanese larch": [
+      "needleleaf",
+      "larch"
+    ],
+    "norway spruce": [
+      "needleleaf",
+      "spruce"
+    ],
+    "scots pine": [
+      "needleleaf",
+      "pine"
+    ],
+    "black pine": [
+      "needleleaf",
+      "pine"
+    ],
+    "weymouth pine": [
+      "needleleaf",
+      "pine"
+    ],
+    "douglas fir": [
+      "needleleaf",
+      "douglas fir"
+    ]
+  },
+  "bands": [
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B8A",
+    "B11",
+    "B12",
+    "NDVI",
+    "EVI",
+    "EVI2",
+    "SAVI",
+    "NDWI"
+  ],
+  "months": [
+    "2022-03",
+    "2022-04",
+    "2022-05",
+    "2022-06",
+    "2022-07",
+    "2022-08",
+    "2022-09",
+    "2022-10"
+  ],
+  "shape": [
+    37907,
+    8,
+    15,
+    5,
+    5
+  ],
+  "counts": {
+    "european beech": 4756,
+    "cherry": 247,
+    "european ash": 2202,
+    "linden": 161,
+    "sycamore maple": 2096,
+    "english oak": 2808,
+    "red oak": 1460,
+    "sessile oak": 2115,
+    "alder": 2143,
+    "birch": 2468,
+    "poplar": 387,
+    "douglas fir": 2185,
+    "silver fir": 811,
+    "european larch": 1139,
+    "japanese larch": 1613,
+    "black pine": 412,
+    "scots pine": 5389,
+    "weymouth pine": 478,
+    "norway spruce": 5037
+  },
+  "missing_classes": [],
+  "invalid_samples_removed": 0,
+  "duplicates_removed": 0,
+  "missing_fraction": 0.052248520501930164,
+  "fingerprint": "27b83c27006ccffc16d1a23457c710335912e8d8799d8e1eb8aa29da1c31e4e3",
+  "sources": [
+    {
+      "file": "TreeSatAI_Label_Data\\TreeSatAI\\broadleaf_beech_european beech.geojson",
+      "bytes": 274690346,
+      "accepted": 4756
+    },
+    {
+      "file": "TreeSatAI_Label_Data\\TreeSatAI\\broadleaf_long-lived deciduous_cherry.geojson",
+      "bytes": 14391917,
+      "accepted": 247
+    },
+    {
+      "file": "TreeSatAI_Label_Data\\TreeSatAI\\broadleaf_long-lived deciduous_european ash.geojson",
+      "bytes": 128499758,
+      "accepted": 2202
+    },
+    {
+      "file": "TreeSatAI_Label_Data\\TreeSatAI\\broadleaf_long-lived deciduous_linden.geojson",
+      "bytes": 9577483,
+      "accepted": 161
+    },
+    {
+      "file": "TreeSatAI_Label_Data\\TreeSatAI\\broadleaf_long-lived deciduous_sycamore maple.geojson",
+      "bytes": 121775676,
+      "accepted": 2096
+    },
+    {
+      "file": "TreeSatAI_Label_Data\\TreeSatAI\\broadleaf_oak_english oak.geojson",
+      "bytes": 164613994,
+      "accepted": 2808
+    },
+    {
+      "file": "TreeSatAI_Label_Data\\TreeSatAI\\broadleaf_oak_red oak.geojson",
+      "bytes": 85860731,
+      "accepted": 1460
+    },
+    {
+      "file": "TreeSatAI_Label_Data\\TreeSatAI\\broadleaf_oak_sessile oak.geojson",
+      "bytes": 122080112,
+      "accepted": 2115
+    },
+    {
+      "file": "TreeSatAI_Label_Data\\TreeSatAI\\broadleaf_short-lived deciduous_alder.geojson",
+      "bytes": 125905305,
+      "accepted": 2143
+    },
+    {
+      "file": "TreeSatAI_Label_Data\\TreeSatAI\\broadleaf_short-lived deciduous_birch.geojson",
+      "bytes": 141445254,
+      "accepted": 2468
+    },
+    {
+      "file": "TreeSatAI_Label_Data\\TreeSatAI\\broadleaf_short-lived deciduous_poplar.geojson",
+      "bytes": 22825685,
+      "accepted": 387
+    },
+    {
+      "file": "TreeSatAI_Label_Data\\TreeSatAI\\needleleaf_douglas fir_douglas fir.geojson",
+      "bytes": 128188184,
+      "accepted": 2185
+    },
+    {
+      "file": "TreeSatAI_Label_Data\\TreeSatAI\\needleleaf_fir_silver fir.geojson",
+      "bytes": 45530085,
+      "accepted": 811
+    },
+    {
+      "file": "TreeSatAI_Label_Data\\TreeSatAI\\needleleaf_larch_european larch.geojson",
+      "bytes": 66768022,
+      "accepted": 1139
+    },
+    {
+      "file": "TreeSatAI_Label_Data\\TreeSatAI\\needleleaf_larch_japanese larch.geojson",
+      "bytes": 93604342,
+      "accepted": 1613
+    },
+    {
+      "file": "TreeSatAI_Label_Data\\TreeSatAI\\needleleaf_pine_black pine.geojson",
+      "bytes": 24263660,
+      "accepted": 412
+    },
+    {
+      "file": "TreeSatAI_Label_Data\\TreeSatAI\\needleleaf_pine_scots pine.geojson",
+      "bytes": 318888135,
+      "accepted": 5389
+    },
+    {
+      "file": "TreeSatAI_Label_Data\\TreeSatAI\\needleleaf_pine_weymouth pine.geojson",
+      "bytes": 28743773,
+      "accepted": 478
+    },
+    {
+      "file": "TreeSatAI_Label_Data\\TreeSatAI\\needleleaf_spruce_norway spruce.geojson",
+      "bytes": 290386722,
+      "accepted": 5037
+    }
+  ],
+  "split": {
+    "train": {
+      "n": 26863,
+      "counts": {
+        "european beech": 3420,
+        "cherry": 193,
+        "european ash": 1463,
+        "linden": 128,
+        "sycamore maple": 1366,
+        "english oak": 2182,
+        "red oak": 1057,
+        "sessile oak": 1505,
+        "alder": 1561,
+        "birch": 1648,
+        "poplar": 226,
+        "douglas fir": 1631,
+        "silver fir": 626,
+        "european larch": 811,
+        "japanese larch": 1243,
+        "black pine": 302,
+        "scots pine": 3821,
+        "weymouth pine": 375,
+        "norway spruce": 3305
+      },
+      "missing_classes": []
+    },
+    "val": {
+      "n": 5748,
+      "counts": {
+        "european beech": 802,
+        "cherry": 35,
+        "european ash": 392,
+        "linden": 24,
+        "sycamore maple": 418,
+        "english oak": 399,
+        "red oak": 207,
+        "sessile oak": 303,
+        "alder": 308,
+        "birch": 590,
+        "poplar": 120,
+        "douglas fir": 239,
+        "silver fir": 83,
+        "european larch": 198,
+        "japanese larch": 139,
+        "black pine": 44,
+        "scots pine": 849,
+        "weymouth pine": 21,
+        "norway spruce": 577
+      },
+      "missing_classes": []
+    },
+    "test": {
+      "n": 5235,
+      "counts": {
+        "european beech": 530,
+        "cherry": 19,
+        "european ash": 340,
+        "linden": 9,
+        "sycamore maple": 312,
+        "english oak": 224,
+        "red oak": 190,
+        "sessile oak": 300,
+        "alder": 273,
+        "birch": 227,
+        "poplar": 36,
+        "douglas fir": 309,
+        "silver fir": 99,
+        "european larch": 129,
+        "japanese larch": 223,
+        "black pine": 66,
+        "scots pine": 717,
+        "weymouth pine": 82,
+        "norway spruce": 1150
+      },
+      "missing_classes": []
+    }
+  },
+  "split_method": "10km spatial blocks; >=100m cross-split center separation; seed 42"
+}

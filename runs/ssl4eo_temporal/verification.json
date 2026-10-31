@@ -1,0 +1,9 @@
+{
+  "train_val_minimum_distance_m": 101.24508717122762,
+  "train_test_minimum_distance_m": 101.14721288305614,
+  "val_test_minimum_distance_m": 103.834582420269,
+  "checkpoint_load_weights_only": true,
+  "unlabeled_predictions_reproduced": 19,
+  "missing_observation_rejected": true,
+  "max_probability_difference": 0.00024050474166870117
+}
